@@ -1,6 +1,6 @@
 # Aleksandr Gvindiaev
 
-**Software engineer in Las Vegas, Nevada · Open to junior backend and full-stack roles**
+**Software engineer in Las Vegas, Nevada · Backend and full-stack development**
 
 I build Node.js services and API integrations. My experience also includes TypeScript, React, authentication workflows, AWS operations, and production troubleshooting. I work part-time at Anunnak, supporting an AI-powered platform and its delivery workflows.
 
