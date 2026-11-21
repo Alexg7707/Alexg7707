@@ -4,6 +4,12 @@
 
 I build Node.js services and API integrations. My experience also includes TypeScript, React, authentication workflows, AWS operations, and production troubleshooting. I work part-time at Anunnak, supporting an AI-powered platform and its delivery workflows.
 
+## Shipment Events API | TypeScript and Node.js
+
+I built an HTTP API for recording shipment scans. When two identical requests arrive at once, the service records the event once and returns the original result on retry. A typed transition table defines which status changes are allowed. Integration tests exercise these rules against a running Node.js server.
+
+[Explore the project and try the retry example](https://github.com/Alexg7707/shipment-events-api) · [TypeScript source](https://github.com/Alexg7707/shipment-events-api/blob/main/src/shipments.ts) · [HTTP tests](https://github.com/Alexg7707/shipment-events-api/blob/main/test/api.test.js) · [CI results](https://github.com/Alexg7707/shipment-events-api/actions/workflows/ci.yml)
+
 ## Vector Trans | Logistics request portal
 
 I built a logistics demo that takes a shipment request from a browser form to a Telegram chat. The Node.js endpoint validates the request and waits for Telegram to confirm delivery before the browser shows success. If delivery fails, the form keeps the user's input. The demo has a Russian interface and an English setup guide.
